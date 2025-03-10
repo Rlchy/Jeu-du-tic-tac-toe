@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <!-- Lien vers le fichier CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="game" role="main" aria-labelledby="game-title">
+            <!-- Titre principal -->
+            <h1 id="game-title">Tic Tac Toe</h1>
+
+            <!-- Plateau de jeu -->
+            <div id="board" aria-label="Plateau de jeu" role="grid">
+                <!-- Les cases seront générées dynamiquement par JavaScript -->
+            </div>
+
+            <!-- Bouton pour recommencer -->
+            <button id="restartButton" aria-label="Recommencer le jeu">Recommencer</button>
+
+            <!-- Message d'état -->
+            <p id="status" aria-live="polite">C’est au tour du joueur X</p>
+        </div>
+
+        <!-- Lien vers le fichier JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
